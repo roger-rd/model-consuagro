@@ -30,10 +30,10 @@ export default function Contacto() {
 
             <div className="space-y-6 mb-10">
               {[
-                { icon: '📞', label: 'Teléfono', val: '+56 9 8765 4321', sub: 'Lun–Vie 8:00–18:00' },
+                { icon: '📞', label: 'Teléfono', val: '+58 414 568952', sub: 'Lun–Vie 8:00–18:00' },
                 { icon: '📧', label: 'Correo electrónico', val: 'contacto@consuagro.cl', sub: 'Respondemos en 24h' },
-                { icon: '📍', label: 'Oficina principal', val: 'Curicó, Región del Maule', sub: 'Con cobertura en 8 Estados' },
-                { icon: '💬', label: 'WhatsApp', val: '+56 9 8765 4321', sub: 'Urgencias técnicas 24/7' },
+                { icon: '📍', label: 'Oficina principal', val: 'Sanare, Estado Lara', sub: 'Con cobertura en 8 Estados' },
+                { icon: '💬', label: 'WhatsApp', val: '+58 414 568952', sub: 'Urgencias técnicas 24/7' },
               ].map((c, i) => (
                 <div key={i} className="flex items-start gap-4 p-5 bg-sage-100 rounded-2xl border border-forest-100">
                   <div className="w-12 h-12 bg-forest-600 rounded-xl flex items-center justify-center text-xl flex-shrink-0">{c.icon}</div>
@@ -90,7 +90,7 @@ export default function Contacto() {
                         <label className="block font-sans text-xs uppercase tracking-wide text-forest-700 mb-2">Teléfono</label>
                         <input
                           type="tel" name="telefono" value={form.telefono} onChange={handle}
-                          placeholder="+56 9 1234 5678"
+                          placeholder="+58 414 568952"
                           className="w-full border border-forest-200 rounded-xl px-4 py-3 font-body text-sm text-forest-900 focus:outline-none focus:border-forest-500 focus:ring-2 focus:ring-forest-500/20 transition-all placeholder:text-forest-400/60"
                         />
                       </div>

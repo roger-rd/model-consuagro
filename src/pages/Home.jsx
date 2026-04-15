@@ -36,9 +36,9 @@ const steps = [
 ]
 
 const testimonials = [
-  { name: 'Carlos Muñoz', role: 'Productor de uva, Valle del Maule', text: 'Desde que trabajo con ConsuAgro, mis rendimientos subieron un 30%. El seguimiento que hacen es constante y el equipo conoce el campo de verdad.' },
-  { name: 'Ana Riquelme', role: 'Agricultora orgánica, Región del Biobío', text: 'Me ayudaron a certificar mi pedido como orgánico. El proceso fue claro y el apoyo técnico fue fundamental para lograrlo.' },
-  { name: 'Roberto Peña', role: 'Agricultor, Valle de Aconcagua', text: 'Llevaba años con el mismo rendimiento. En una temporada con ConsuAgro entendí qué estaba fallando en mi suelo.' },
+  { name: 'Carlos Muñoz', role: 'Productor de uva ', text: 'Desde que trabajo con ConsuAgro, mis rendimientos subieron un 30%. El seguimiento que hacen es constante y el equipo conoce el campo de verdad.' },
+  { name: 'Ana Riquelme', role: 'Agricultora orgánica ', text: 'Me ayudaron a certificar mi pedido como orgánico. El proceso fue claro y el apoyo técnico fue fundamental para lograrlo.' },
+  { name: 'Roberto Peña', role: 'Agricultor', text: 'Llevaba años con el mismo rendimiento. En una temporada con ConsuAgro entendí qué estaba fallando en mi suelo.' },
 ]
 
 /* ── Hero section with animated particles ── */
