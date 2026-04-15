@@ -9,7 +9,7 @@ const team = [
 ]
 
 const values = [
-  { icon: '🏆', title: 'Excelencia técnica', desc: 'Aplicamos el conocimiento más actualizado y las mejores prácticas internacionales adaptadas a la realidad del campo chileno.' },
+  { icon: '🏆', title: 'Excelencia técnica', desc: 'Aplicamos el conocimiento más actualizado y las mejores prácticas internacionales adaptadas a la realidad del campo venezolano.' },
   { icon: '🤝', title: 'Compromiso real', desc: 'Nos involucramos genuinamente con cada productor. Su éxito es nuestro éxito.' },
   { icon: '🌿', title: 'Sostenibilidad', desc: 'Toda recomendación técnica considera el largo plazo: suelo, agua, biodiversidad y rentabilidad van de la mano.' },
   { icon: '💡', title: 'Innovación aplicada', desc: 'Incorporamos tecnología y nuevas herramientas cuando aportan valor real, sin perder de vista lo esencial.' },
@@ -23,7 +23,7 @@ export default function Nosotros() {
       <PageHero
         tag="Sobre ConsuAgro"
         title="Técnicos que viven el campo cada día"
-        subtitle="Somos un equipo de ingenieros agrónomos y especialistas con años de experiencia real en producción agrícola chilena."
+        subtitle="Somos un equipo de ingenieros agrónomos y especialistas con años de experiencia real en producción agrícola venezolana."
         bgClass="bg-forest-900"
       />
 
@@ -40,13 +40,13 @@ export default function Nosotros() {
                 icon: '🎯',
                 title: 'Misión',
                 color: 'bg-forest-600',
-                text: 'Brindar asesoría técnica agrícola de excelencia que mejore la productividad, sostenibilidad y rentabilidad de los predidos de nuestros clientes, contribuyendo al desarrollo del campo chileno.',
+                text: 'Brindar asesoría técnica agrícola de excelencia que mejore la productividad, sostenibilidad y rentabilidad de los pedidos de nuestros clientes, contribuyendo al desarrollo del campo venezolano.',
               },
               {
                 icon: '🔭',
                 title: 'Visión',
                 color: 'bg-earth-500',
-                text: 'Ser la empresa de consultoría agrícola de referencia en Chile, reconocida por la calidad de nuestro trabajo técnico, la confianza de nuestros clientes y nuestro aporte a una agricultura más sostenible.',
+                text: 'Ser la empresa de consultoría agrícola de referencia en Venezuela, reconocida por la calidad de nuestro trabajo técnico, la confianza de nuestros clientes y nuestro aporte a una agricultura más sostenible.',
               },
               {
                 icon: '⚖️',
@@ -76,10 +76,10 @@ export default function Nosotros() {
             <span className="section-tag">Nuestra historia</span>
             <h2 className="font-display text-4xl font-700 text-forest-900 mt-2 mb-6">Nacimos del campo,<br /><em className="text-forest-600">para el campo</em></h2>
             <p className="font-body text-forest-700/75 leading-relaxed mb-4">
-              ConsuAgro fue fundada en 2012 por un grupo de ingenieros agrónomos convencidos de que el productor agrícola chileno merecía asesoría técnica de primer nivel, sin importar el tamaño de su pedido.
+              ConsuAgro fue fundada en 2012 por un grupo de ingenieros agrónomos convencidos de que el productor agrícola venezolano merecía asesoría técnica de primer nivel, sin importar el tamaño de su pedido.
             </p>
             <p className="font-body text-forest-700/75 leading-relaxed mb-4">
-              Empezamos trabajando en la Región del Maule con pequeños viticultores y hortalizas, y con los años fuimos expandiendo nuestra presencia a 8 regiones del país, sumando especialistas en distintas áreas productivas.
+              Empezamos trabajando en la Región del Maule con pequeños viticultores y hortalizas, y con los años fuimos expandiendo nuestra presencia a 8 estados del país, sumando especialistas en distintas áreas productivas.
             </p>
             <p className="font-body text-forest-700/75 leading-relaxed">
               Hoy somos más de 12 profesionales activos en terreno, con más de 380 pedidos asesorados y una tasa de retención de clientes superior al 90%.
@@ -146,7 +146,7 @@ export default function Nosotros() {
       {/* CTA */}
       <section className="bg-earth-500 py-16">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="font-display text-3xl text-white font-600 mb-4">Conózcanos en su predido</h2>
+          <h2 className="font-display text-3xl text-white font-600 mb-4">Conózcanos en su pedido</h2>
           <p className="font-body text-white/70 mb-8">La primera visita es sin costo. Le mostramos cómo trabajamos y evaluamos juntos el potencial de su campo.</p>
           <Link to="/contacto" className="bg-white text-earth-700 font-sans font-600 px-8 py-4 rounded-full hover:bg-earth-50 transition-colors text-sm">
             Agendar visita →

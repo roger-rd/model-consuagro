@@ -32,7 +32,7 @@ export default function Contacto() {
               {[
                 { icon: '📞', label: 'Teléfono', val: '+56 9 8765 4321', sub: 'Lun–Vie 8:00–18:00' },
                 { icon: '📧', label: 'Correo electrónico', val: 'contacto@consuagro.cl', sub: 'Respondemos en 24h' },
-                { icon: '📍', label: 'Oficina principal', val: 'Curicó, Región del Maule', sub: 'Con cobertura en 8 regiones' },
+                { icon: '📍', label: 'Oficina principal', val: 'Curicó, Región del Maule', sub: 'Con cobertura en 8 Estados' },
                 { icon: '💬', label: 'WhatsApp', val: '+56 9 8765 4321', sub: 'Urgencias técnicas 24/7' },
               ].map((c, i) => (
                 <div key={i} className="flex items-start gap-4 p-5 bg-sage-100 rounded-2xl border border-forest-100">

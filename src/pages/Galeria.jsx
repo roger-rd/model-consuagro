@@ -11,7 +11,7 @@ const images = [
   { url: 'https://images.unsplash.com/photo-1615811361523-6bd03d7748e7?w=800&q=80', label: 'Cultivo de maíz', cat: 'Cultivos' },
   { url: 'https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?w=800&q=80', label: 'Taller técnico con productores', cat: 'Capacitación' },
   { url: 'https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=800&q=80', label: 'Sector frutícola, Maule', cat: 'Frutales' },
-  { url: 'https://images.unsplash.com/photo-1444392061186-9fc38f16d4ec?w=800&q=80', label: 'Vista aérea del predido productor', cat: 'predidos' },
+  { url: 'https://images.unsplash.com/photo-1444392061186-9fc38f16d4ec?w=800&q=80', label: 'Vista aérea del pedido productor', cat: 'pedidos' },
   { url: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&q=80', label: 'Invernadero de vegetales', cat: 'Hortalizas' },
   { url: 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=800&q=80', label: 'Plantación de lavanda', cat: 'Aromáticas' },
 ]

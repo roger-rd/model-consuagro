@@ -42,9 +42,9 @@ export default function Footer() {
           <div>
             <h4 className="font-sans font-600 text-sm tracking-widest uppercase text-earth-400 mb-5">Contacto</h4>
             <ul className="space-y-3 text-sm text-white/60 font-body">
-              <li>+56 9 8765 4321</li>
+              <li>+58 414 256895</li>
               <li>contacto@consuagro.cl</li>
-              <li>Región del Maule, Chile</li>
+              <li>Sanare, estado Lara </li>
               <li className="pt-2">
                 <span className="inline-block bg-forest-700/40 text-forest-300 text-xs px-3 py-1 rounded-full">
                   Lun–Vie · 8:00–18:00
@@ -56,7 +56,7 @@ export default function Footer() {
 
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-white/40 text-xs font-sans">© 2025 ConsuAgro · Todos los derechos reservados</p>
-          <p className="text-white/30 text-xs font-sans">Hecho con ❤ para el campo chileno</p>
+          <p className="text-white/30 text-xs font-sans">Hecho con ❤ para el campo venezolano</p>
         </div>
       </div>
     </footer>
