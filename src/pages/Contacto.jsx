@@ -50,8 +50,8 @@ export default function Contacto() {
             <div className="rounded-2xl overflow-hidden bg-forest-100 h-48 flex items-center justify-center border border-forest-200">
               <div className="text-center">
                 <div className="text-4xl mb-2">🗺️</div>
-                <p className="font-sans text-sm text-forest-600">Cobertura en todo Chile</p>
-                <p className="font-sans text-xs text-forest-600/60 mt-1">Regiones del Maule, Biobío, O'Higgins y más</p>
+                <p className="font-sans text-sm text-forest-600">Cobertura en toda Venezuela</p>
+                
               </div>
             </div>
           </div>
