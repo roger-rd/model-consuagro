@@ -197,7 +197,7 @@ function ServicesPreview() {
             <div key={i}
               className={`bg-white rounded-2xl p-7 card-hover cursor-pointer group border border-forest-100 transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
               style={{ transitionDelay: `${i * 120}ms` }}>
-              <div className="w-13 h-13 bg-forest-50 group-hover:bg-forest-600 rounded-xl flex items-center justify-center text-2xl transition-colors duration-300 mb-5 text-3xl">{s.icon}</div>
+              <div className="w-13 h-13 bg-forest-50 group-hover:bg-forest-600 rounded-xl flex items-center justify-center text-2xl transition-colors duration-300 mb-5">{s.icon}</div>
               <h3 className="font-display text-lg font-600 text-forest-900 mb-3">{s.title}</h3>
               <p className="font-body text-sm text-forest-700/70 leading-relaxed">{s.desc}</p>
             </div>
