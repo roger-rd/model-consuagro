@@ -15,7 +15,7 @@ export default function Contacto() {
     <>
       <PageHero
         tag="Contáctenos"
-        title="Hablemos de su predio"
+        title="Hablemos de su precio"
         subtitle="Complete el formulario y un técnico se comunicará con usted dentro de 24 horas hábiles."
         bgClass="bg-forest-900"
       />
@@ -132,7 +132,7 @@ export default function Contacto() {
                       <label className="block font-sans text-xs uppercase tracking-wide text-forest-700 mb-2">Mensaje *</label>
                       <textarea
                         name="mensaje" required value={form.mensaje} onChange={handle} rows={5}
-                        placeholder="Cuéntenos sobre su predio, sus cultivos actuales y qué necesita mejorar..."
+                        placeholder="Cuéntenos sobre sus cultivos actuales y qué necesita mejorar..."
                         className="w-full border border-forest-200 rounded-xl px-4 py-3 font-body text-sm text-forest-900 focus:outline-none focus:border-forest-500 focus:ring-2 focus:ring-forest-500/20 transition-all resize-none placeholder:text-forest-400/60"
                       />
                     </div>

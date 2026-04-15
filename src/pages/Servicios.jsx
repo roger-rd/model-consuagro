@@ -34,7 +34,7 @@ const services = [
     icon: '📜',
     img: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80',
     title: 'Certificación Orgánica',
-    desc: 'Acompañamos el proceso de transición y certificación orgánica. Gestionamos la documentación, preparamos el predio para las auditorías y coordinamos con organismos certificadores acreditados.',
+    desc: 'Acompañamos el proceso de transición y certificación orgánica. Gestionamos la documentación, preparamos el pedido para las auditorías y coordinamos con organismos certificadores acreditados.',
     tags: ['Transición orgánica', 'Documentación', 'Auditorías'],
   },
   {
@@ -52,7 +52,7 @@ export default function Servicios() {
       <PageHero
         tag="Nuestros servicios"
         title="Soluciones técnicas para cada desafío del campo"
-        subtitle="Servicios especializados diseñados para aumentar su rentabilidad y sostener la productividad de su predio a largo plazo."
+        subtitle="Servicios especializados diseñados para aumentar su rentabilidad y sostener la productividad de su pedido a largo plazo."
         bgClass="bg-forest-800"
       />
 
@@ -95,7 +95,7 @@ export default function Servicios() {
       <section className="bg-forest-800 py-16">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="font-display text-3xl text-white font-600 mb-4">¿No sabe por dónde empezar?</h2>
-          <p className="font-body text-white/65 mb-8">Agenda una visita de diagnóstico sin costo y le ayudamos a identificar las prioridades de su predio.</p>
+          <p className="font-body text-white/65 mb-8">Agenda una visita de diagnóstico sin costo y le ayudamos a identificar las prioridades de su pedido.</p>
           <Link to="/contacto" className="btn-primary">Solicitar diagnóstico gratuito →</Link>
         </div>
       </section>

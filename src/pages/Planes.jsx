@@ -54,7 +54,7 @@ const plans = [
       'Visitas ilimitadas',
       'Gestión de certificación orgánica',
       'Apoyo en postulaciones INDAP/SAG',
-      'Planificación financiera del predio',
+      'Planificación financiera del pedido',
       'Análisis foliar incluido',
       'Asesoría en comercialización',
       'Acceso a capacitaciones exclusivas',
@@ -68,9 +68,9 @@ const plans = [
 
 const faqs = [
   { q: '¿Los planes tienen contrato de permanencia?', a: 'No. Nuestros planes son mensuales y puede cambiar o cancelar en cualquier momento. Creemos que la mejor fidelización es la calidad del servicio.' },
-  { q: '¿El diagnóstico inicial tiene algún costo?', a: 'La primera visita diagnóstica es completamente gratuita y sin compromiso. Solo después de conocer su predio le ofrecemos el plan que más le conviene.' },
+  { q: '¿El diagnóstico inicial tiene algún costo?', a: 'La primera visita diagnóstica es completamente gratuita y sin compromiso. Solo después de conocer su pedido le ofrecemos el plan que más le conviene.' },
   { q: '¿Puedo personalizar algún plan?', a: 'Sí. Si necesita servicios específicos que no encajan en ningún plan estándar, ofrecemos cotizaciones a medida. Contáctenos y conversamos.' },
-  { q: '¿Trabajan con predios pequeños?', a: 'Por supuesto. Asesoramos desde pequeños huertos familiares hasta grandes propiedades agrícolas. Cada predio tiene su propio potencial.' },
+  { q: '¿Trabajan con pedidos pequeños?', a: 'Por supuesto. Asesoramos desde pequeños huertos familiares hasta grandes propiedades agrícolas. Cada pedido tiene su propio potencial.' },
 ]
 
 export default function Planes() {
@@ -144,7 +144,7 @@ export default function Planes() {
             <div className="text-4xl mb-4">🗂️</div>
             <h2 className="font-display text-3xl font-700 text-forest-900 mb-4">¿Necesita algo diferente?</h2>
             <p className="font-body text-forest-700/70 mb-8 leading-relaxed">
-              Para predios con necesidades específicas o proyectos puntuales, ofrecemos cotizaciones a medida. Contáctenos y diseñamos juntos la asesoría ideal para su situación.
+              Para pedidos con necesidades específicas o proyectos puntuales, ofrecemos cotizaciones a medida. Contáctenos y diseñamos juntos la asesoría ideal para su situación.
             </p>
             <Link to="/contacto" className="btn-primary">Solicitar cotización personalizada →</Link>
           </div>

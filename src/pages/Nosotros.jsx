@@ -40,7 +40,7 @@ export default function Nosotros() {
                 icon: '🎯',
                 title: 'Misión',
                 color: 'bg-forest-600',
-                text: 'Brindar asesoría técnica agrícola de excelencia que mejore la productividad, sostenibilidad y rentabilidad de los predios de nuestros clientes, contribuyendo al desarrollo del campo chileno.',
+                text: 'Brindar asesoría técnica agrícola de excelencia que mejore la productividad, sostenibilidad y rentabilidad de los predidos de nuestros clientes, contribuyendo al desarrollo del campo chileno.',
               },
               {
                 icon: '🔭',
@@ -76,13 +76,13 @@ export default function Nosotros() {
             <span className="section-tag">Nuestra historia</span>
             <h2 className="font-display text-4xl font-700 text-forest-900 mt-2 mb-6">Nacimos del campo,<br /><em className="text-forest-600">para el campo</em></h2>
             <p className="font-body text-forest-700/75 leading-relaxed mb-4">
-              ConsuAgro fue fundada en 2012 por un grupo de ingenieros agrónomos convencidos de que el productor agrícola chileno merecía asesoría técnica de primer nivel, sin importar el tamaño de su predio.
+              ConsuAgro fue fundada en 2012 por un grupo de ingenieros agrónomos convencidos de que el productor agrícola chileno merecía asesoría técnica de primer nivel, sin importar el tamaño de su pedido.
             </p>
             <p className="font-body text-forest-700/75 leading-relaxed mb-4">
               Empezamos trabajando en la Región del Maule con pequeños viticultores y hortalizas, y con los años fuimos expandiendo nuestra presencia a 8 regiones del país, sumando especialistas en distintas áreas productivas.
             </p>
             <p className="font-body text-forest-700/75 leading-relaxed">
-              Hoy somos más de 12 profesionales activos en terreno, con más de 380 predios asesorados y una tasa de retención de clientes superior al 90%.
+              Hoy somos más de 12 profesionales activos en terreno, con más de 380 pedidos asesorados y una tasa de retención de clientes superior al 90%.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -146,7 +146,7 @@ export default function Nosotros() {
       {/* CTA */}
       <section className="bg-earth-500 py-16">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="font-display text-3xl text-white font-600 mb-4">Conózcanos en su predio</h2>
+          <h2 className="font-display text-3xl text-white font-600 mb-4">Conózcanos en su predido</h2>
           <p className="font-body text-white/70 mb-8">La primera visita es sin costo. Le mostramos cómo trabajamos y evaluamos juntos el potencial de su campo.</p>
           <Link to="/contacto" className="bg-white text-earth-700 font-sans font-600 px-8 py-4 rounded-full hover:bg-earth-50 transition-colors text-sm">
             Agendar visita →

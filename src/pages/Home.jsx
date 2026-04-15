@@ -16,20 +16,20 @@ function useInView(threshold = 0.15) {
 /* ── Data ── */
 const services = [
   { icon: '🌱', title: 'Diagnóstico de Suelos', desc: 'Análisis completo del estado físico, químico y biológico de sus suelos para tomar decisiones informadas.' },
-  { icon: '🚜', title: 'Planificación de Cultivos', desc: 'Diseño de rotaciones y calendarios agrícolas adaptados a su predio y condiciones climáticas locales.' },
+  { icon: '🚜', title: 'Planificación de Cultivos', desc: 'Diseño de rotaciones y calendarios agrícolas adaptados a su predido y condiciones climáticas locales.' },
   { icon: '💧', title: 'Eficiencia Hídrica', desc: 'Evaluación y optimización de sistemas de riego para reducir consumo y maximizar productividad.' },
   { icon: '🌿', title: 'Manejo Fitosanitario', desc: 'Diagnóstico y control integrado de plagas y enfermedades con enfoque sostenible y certificable.' },
 ]
 
 const stats = [
   { value: '12+', label: 'Años de experiencia' },
-  { value: '380+', label: 'Predios asesorados' },
+  { value: '380+', label: 'Productores asesorados' },
   { value: '8', label: 'Regiones de cobertura' },
   { value: '94%', label: 'Clientes satisfechos' },
 ]
 
 const steps = [
-  { num: '01', title: 'Visita de diagnóstico', desc: 'Recorremos el predio para entender sus condiciones actuales y objetivos productivos.' },
+  { num: '01', title: 'Visita de diagnóstico', desc: 'Recorremos el predido para entender sus condiciones actuales y objetivos productivos.' },
   { num: '02', title: 'Plan técnico', desc: 'Desarrollamos un plan de acción personalizado con metas claras y medibles.' },
   { num: '03', title: 'Implementación', desc: 'Acompañamiento durante la ejecución con visitas periódicas y seguimiento de indicadores.' },
   { num: '04', title: 'Evaluación', desc: 'Reportes de avance y ajustes continuos para garantizar los mejores resultados.' },
@@ -37,7 +37,7 @@ const steps = [
 
 const testimonials = [
   { name: 'Carlos Muñoz', role: 'Productor de uva, Valle del Maule', text: 'Desde que trabajo con ConsuAgro, mis rendimientos subieron un 30%. El seguimiento que hacen es constante y el equipo conoce el campo de verdad.' },
-  { name: 'Ana Riquelme', role: 'Agricultora orgánica, Región del Biobío', text: 'Me ayudaron a certificar mi predio como orgánico. El proceso fue claro y el apoyo técnico fue fundamental para lograrlo.' },
+  { name: 'Ana Riquelme', role: 'Agricultora orgánica, Región del Biobío', text: 'Me ayudaron a certificar mi predido como orgánico. El proceso fue claro y el apoyo técnico fue fundamental para lograrlo.' },
   { name: 'Roberto Peña', role: 'Agricultor, Valle de Aconcagua', text: 'Llevaba años con el mismo rendimiento. En una temporada con ConsuAgro entendí qué estaba fallando en mi suelo.' },
 ]
 
@@ -190,7 +190,7 @@ function ServicesPreview() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-14">
           <span className="section-tag">Lo que hacemos</span>
-          <h2 className="font-display text-4xl md:text-5xl text-forest-900 font-700 mt-2">Servicios especializados<br /><em className="text-forest-600">para su predio</em></h2>
+          <h2 className="font-display text-4xl md:text-5xl text-forest-900 font-700 mt-2">Servicios especializados<br /><em className="text-forest-600">para su predido</em></h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((s, i) => (
@@ -271,7 +271,7 @@ function AboutPreview() {
             { icon: '🏅', title: 'Certificados', val: 'INIA, SAG, INDAP' },
             { icon: '🌎', title: 'Cobertura', val: '8 regiones' },
             { icon: '📊', title: 'Experiencia', val: 'Más de 12 años' },
-            { icon: '🤝', title: 'Predios activos', val: '+380 clientes' },
+            { icon: '🤝', title: 'predidos activos', val: '+380 clientes' },
           ].map((item, i) => (
             <div key={i} className="bg-white/8 border border-white/10 rounded-2xl p-6 text-white hover:bg-white/15 transition-colors">
               <div className="text-3xl mb-3">{item.icon}</div>
@@ -329,7 +329,7 @@ function CTA() {
       <div className="absolute inset-0 opacity-10" style={{backgroundImage:`url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M40 0L80 80H0L40 0z' opacity='0.1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`}} />
       <div className="relative max-w-3xl mx-auto px-6 text-center">
         <h2 className="font-display text-4xl md:text-5xl text-white font-700 leading-tight">
-          ¿Listo para mejorar su predio?
+          ¿Listo para mejorar su pedido?
         </h2>
         <p className="mt-5 font-body text-white/75 text-lg leading-relaxed">
           Contáctenos hoy y agendemos una visita sin costo para conocer su situación actual.
